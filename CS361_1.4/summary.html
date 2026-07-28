@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h1>Summary Report</h1>
+
+    <label for="dateRange">Date Range</label><br>
+
+    <input
+        type="text"
+        id="dateRange"
+        placeholder="MM-DD-YY, MM-DD-YY"
+    >
+
+    <button id="viewReport">View Report</button>
+
+    <h2 id="totalExpense">Total Expense: $0</h2>
+
+    <div style="width: 400px;">
+        <canvas id="pieChart"></canvas>
+    </div>
+
+    <h2 id="totalIncome">Total Income: $0</h2>
+
+    <a href="homepage.html">
+        <button>Home Page</button>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="summary.js"></script>
+
+</body>
+</html>

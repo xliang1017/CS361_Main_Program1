@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<body data-type="income">
+
+    <h1>Record Income</h1>
+
+    <form id="recordForm">
+        <label for="amount">Amount</label><br>
+        <input type="number" id="amount" step="0.01" min="0"><br><br>
+
+        <label for="date">Date</label><br>
+        <input type="date" id="date"><br><br>
+
+        <label for="note">Note / Category</label><br>
+        <input type="text" id="note"><br><br>
+
+        <button type="submit">Submit Income</button>
+    </form>
+
+    <p id="message"></p>
+
+    <br>
+
+    <a href="summary.html">
+        <button type="button">Summary Report</button>
+    </a>
+
+    <a href="homepage.html">
+        <button>Home Page</button>
+    </a>
+
+    <script src="record.js"></script>
+</body>
+</html>
